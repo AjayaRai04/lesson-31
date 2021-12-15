@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
-  const publishableKey = 'pk_test_b7a3hFL5nC3qlBCZ6bQACpez00gyMMP52H';
+  const publishableKey = 'pk_test_51K6II1ADSzHzemmHtygtDNbFejHBk99Dypgg8x2C9w1haBZ1hmS4BlHpMFK4E8BsgGtjOP8jHls8OojkeCcs2sBI00JECs0LX2';
 
   const onToken = token => {
     axios({
